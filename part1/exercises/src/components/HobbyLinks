@@ -1,0 +1,17 @@
+import React from 'react';
+
+class HobbyLinks extends React.Component {
+    render() {
+    const hobbyLinks = ["https://us.shein.com/?ref=www&rep=dir&ret=us", "https://www.amazon.com/"];
+      return (
+      <div>
+         <h3> "Hobbies"</h3>
+         <ol>
+         <a href = {hobbyLinks[0]}>"Shein""</a>
+         <a href = {hobbyLinks[1]}>"Amazon"</a>
+         </ol>
+      </div>
+      );
+   }
+}
+export default HobbyLinks;
